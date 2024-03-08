@@ -8,8 +8,6 @@ on:
       - main
       - 'dev-*'  # any branch starting with 
       - 'feat/**' # any branch name starting with 
-     paths-ignore:
-      - '.github\workflows\*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
